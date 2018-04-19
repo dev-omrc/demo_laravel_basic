@@ -5,7 +5,7 @@
         @if($distro->image_path)
             <img class="card-img-top" src="{{ asset('storage/'.$distro->image_path) }}" alt="Card image cap" style="width: 128px">
         @else
-            <img class="card-img-top" src="{{ asset('storage/images/no_image.png') }}" alt="Card image cap" style="width: 128px">
+            <img class="card-img-top" src="{{ asset('storage/no_image.png') }}" alt="Card image cap" style="width: 128px">
         @endif
         <div class="card-body">
             <h5 class="card-title">{{ $distro->name }}</h5>

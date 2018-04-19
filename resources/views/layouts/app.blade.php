@@ -14,7 +14,7 @@
     <script defer src="{{ asset('js/all.js') }}" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     @yield('style')
 </head>
@@ -26,8 +26,8 @@
         </main>
     </div>
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="{{ asset("js/popper.min.js") }}"></script>
+    <script src="{{ asset("js/bootstrap.min.js") }}"></script>
     @yield('script')
 </body>
 </html>

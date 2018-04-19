@@ -57,7 +57,7 @@ function getDistroData(distro){
             if (data.image_path != null){
                 $('#edit-current-img').attr('src',document.location.origin+'/storage/'+data.image_path);
             } else{
-                $('#edit-current-img').attr('src',document.location.origin+'/storage/images/no_image.png');
+                $('#edit-current-img').attr('src',document.location.origin+'/storage/no_image.png');
             }
             $('#edit-distro-modal').modal('show');
         }

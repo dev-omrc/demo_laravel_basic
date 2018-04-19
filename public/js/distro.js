@@ -54,7 +54,6 @@ function getDistroData(distro){
         success: function (data) {
             $('#edit-id').val(data.id);
             $('#edit-name').val(data.name);
-            console.log(data);
             if (data.image_path != null){
                 $('#edit-current-img').attr('src',document.location.origin+'/storage/'+data.image_path);
             } else{
